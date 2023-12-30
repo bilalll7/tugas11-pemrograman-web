@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas 11 | Albilal Bintang Iskandar</title>
+  <link rel="stylesheet" href="./assets/css/w3.css">
+</head>
+
+<body>
+  <div class="w3-container">
+
+    <h1>FORMULIR DATA SISWA KELAS IT-1</h1>
+
+    <div class="w3-card-4">
+      <div class="w3-container w3-green">
+        <h2>DATA SISWA</h2>
+      </div>
+      <form class="w3-container">
+        <p>
+          <label>NIM</label>
+          <input class="w3-input" type="text" name="nim">
+        </p>
+        <p>
+          <label>NAMA LENGKAP</label>
+          <input class="w3-input" type="text" name="namalengkap">
+        </p>
+
+        <p>
+        <div class="w3-container w3-orange">
+          <h2>Hoby Anda</h2>
+        </div>
+        <form action="action_page.php">
+          <p>
+            <input class="w3-check" type="checkbox" checked="checked" name="pascal">
+            <label>Games</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" name="delphi">
+            <label>Musik</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" name="delphi">
+            <label>Renang</label>
+          </p>
+          <p>
+            <input class="w3-check" type="checkbox" disabled>
+            <label>Makan (Disabled)</label>
+          </p>
+          <hr>
+          <p>
+
+
+          <p>
+          <div class="w3-container w3-purple">
+            <h2>Jenis Kelamin Anda</h2>
+          </div>
+          <form class="w3-container" action="action_page.php">
+            <p>
+              <input class="w3-radio" type="radio" name="gender" value="male" checked>
+              <label>Pria</label>
+            </p>
+            <p>
+              <input class="w3-radio" type="radio" name="gender" value="female">
+              <label>Wanita</label>
+            </p>
+            <p>
+              <input class="w3-radio" type="radio" name="gender" value="" disabled>
+              <label>Tidak Tahu (Disabled)</label>
+            </p>
+            <hr>
+            <p>
+
+            <form class="w3-container w3-card-4" action="action_page.php">
+              <div class="w3-container w3-green">
+                <h2>Tempat Pavorit</h2>
+              </div>
+              <select class="w3-select" name="option">
+                <option value="" disabled selected>Pilih salah satu</option>
+                <option value="1">Cafe</option>
+                <option value="2">Taman</option>
+                <option value="3">Gunung</option>
+                <option value="4">laut</option>
+              </select>
+              <p>
+
+                <button class="w3-btn w3-round-xxlarge w3-orange">Kirim</button>
+                <button class="w3-btn w3-round-xxlarge w3-orange">Batal</button>
+              </p>
+            </form>
+          </form>
+
+        </form>
+
+
+      </form>
+    </div>
+
+  </div>
+  </div>
+</body>
+
+</html>
